@@ -28,6 +28,7 @@ To install and set up the project environment, follow these steps:
    ```bash
    git clone https://github.com/agutm/ecommerce.git
    ```
+
 2. Navigate to the project directory:
 
    ```bash
@@ -41,12 +42,15 @@ To install and set up the project environment, follow these steps:
 - ### api
 
   Contains the API service code.
+
 - ### model
 
   Trained model, data and pre-preocessing needed.
+
 - ### notebooks
 
   Jupyter notebooks for exploration, analysis and training.
+
 - ### reports
 
   Generated analysis as HTML, PDF, or other formats.
@@ -90,7 +94,7 @@ Example API endpoint: http://localhost:80/predict
 Example request body:
 
     {
-      "input": "mouse razer Razer mouse with high dps and rgb"
+      "input": "Title Description"
     }
 
 The API will return the predicted categories for the given product text.
